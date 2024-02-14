@@ -1,0 +1,61 @@
+/* HTML Background */
+html {
+  background: url("images/triangles.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Fixed-width content. Top/bottom padding is 40px and left/right padding is 50px */
+body {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 1100px;
+  margin: 70px auto;
+  border: 2px solid black;
+  padding: 50px 50px;
+  border-radius: 15px;
+}
+
+/* Font family */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* H1 centered, font-size and color - ID*/
+#title {
+  text-align: center;
+  font-size: 70px;
+  color: rgb(3, 110, 9);
+  text-shadow: 3px 3px 5px black;
+}
+
+/* Hover images */
+img:hover {
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+/* H2 - Class */
+.headings {
+  color: green;
+  text-decoration-line: underline;
+  text-decoration-color: lightgreen;
+  text-decoration-style: solid;
+  background-color: white;
+  background-size: cover;
+}
+
+/* Bullet point list margin */
+ul {
+  margin: 20px;
+}
+
+/* Ordered list background and adjustments */
+ol {
+  background: lightgray;
+  padding: 3px;
+  line-height: initial;
+}
+
+#number {
+  margin-left: 30px;
+}
